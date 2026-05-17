@@ -224,8 +224,3 @@ Issues and PRs welcome. Particularly useful contributions:
 
 MIT — see [LICENSE](LICENSE).
 
----
-
-## Other languages
-
-- 🇷🇺 [README на русском](README_RU.md)
