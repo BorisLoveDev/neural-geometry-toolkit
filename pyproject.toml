@@ -1,0 +1,22 @@
+[project]
+name = "neural-geometry-lab"
+version = "0.1.0"
+description = "Activation manifold and Fourier probe experiments inspired by Goodfire neural geometry research"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.1",
+  "transformers>=4.40",
+  "accelerate>=0.29",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.7",
+  "scipy>=1.10",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.32"]
+
+[project.scripts]
+nglab = "nglab.cli:main"

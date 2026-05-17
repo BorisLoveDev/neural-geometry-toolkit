@@ -1,0 +1,52 @@
+experiment,layer,metric,value,interpretation
+weekdays,0,angle_mae_deg,29.5,baseline (embeddings)
+weekdays,0,adjacent_similarity_gap,0.07,higher=better; adjacent days closer than non-adjacent
+weekdays,8,angle_mae_deg,22.0,lower=better; random~50
+weekdays,8,adjacent_similarity_gap,0.29,higher=better; adjacent days closer than non-adjacent
+weekdays,17,angle_mae_deg,24.5,lower=better; random~50
+weekdays,17,adjacent_similarity_gap,0.43,higher=better; adjacent days closer than non-adjacent
+weekdays,18,angle_mae_deg,23.4,lower=better; random~50
+weekdays,18,adjacent_similarity_gap,0.43,higher=better; adjacent days closer than non-adjacent
+weekdays,19,angle_mae_deg,20.1,lower=better; random~50
+weekdays,19,adjacent_similarity_gap,0.44,higher=better; adjacent days closer than non-adjacent
+weekdays,36,angle_mae_deg,30.3,lower=better; random~50
+weekdays,36,adjacent_similarity_gap,0.38,higher=better; adjacent days closer than non-adjacent
+numbers,0,R2_mean_period=2,0.36,higher=better; >=0.9 means cleanly decodable
+numbers,0,R2_mean_period=5,0.56,higher=better; >=0.9 means cleanly decodable
+numbers,0,R2_mean_period=10,0.56,higher=better; >=0.9 means cleanly decodable
+numbers,0,R2_mean_period=20,0.13,higher=better; >=0.9 means cleanly decodable
+numbers,0,R2_mean_period=50,0.30,higher=better; >=0.9 means cleanly decodable
+numbers,0,R2_mean_period=100,0.34,higher=better; >=0.9 means cleanly decodable
+numbers,2,R2_mean_period=2,0.97,higher=better; >=0.9 means cleanly decodable
+numbers,2,R2_mean_period=5,1.00,higher=better; >=0.9 means cleanly decodable
+numbers,2,R2_mean_period=10,1.00,higher=better; >=0.9 means cleanly decodable
+numbers,2,R2_mean_period=20,0.98,higher=better; >=0.9 means cleanly decodable
+numbers,2,R2_mean_period=50,0.99,higher=better; >=0.9 means cleanly decodable
+numbers,2,R2_mean_period=100,1.00,higher=better; >=0.9 means cleanly decodable
+numbers,18,R2_mean_period=2,0.70,higher=better; >=0.9 means cleanly decodable
+numbers,18,R2_mean_period=5,0.94,higher=better; >=0.9 means cleanly decodable
+numbers,18,R2_mean_period=10,0.98,higher=better; >=0.9 means cleanly decodable
+numbers,18,R2_mean_period=20,0.88,higher=better; >=0.9 means cleanly decodable
+numbers,18,R2_mean_period=50,0.94,higher=better; >=0.9 means cleanly decodable
+numbers,18,R2_mean_period=100,0.98,higher=better; >=0.9 means cleanly decodable
+numbers,36,R2_mean_period=2,0.62,higher=better; >=0.9 means cleanly decodable
+numbers,36,R2_mean_period=5,0.93,higher=better; >=0.9 means cleanly decodable
+numbers,36,R2_mean_period=10,0.95,higher=better; >=0.9 means cleanly decodable
+numbers,36,R2_mean_period=20,0.71,higher=better; >=0.9 means cleanly decodable
+numbers,36,R2_mean_period=50,0.89,higher=better; >=0.9 means cleanly decodable
+numbers,36,R2_mean_period=100,0.95,higher=better; >=0.9 means cleanly decodable
+addition,0,R2_mean_period=2,-0.00,higher=better; addition signal is weaker than numbers
+addition,0,R2_mean_period=5,-0.00,higher=better; addition signal is weaker than numbers
+addition,0,R2_mean_period=10,-0.00,higher=better; addition signal is weaker than numbers
+addition,0,R2_mean_period=20,-0.00,higher=better; addition signal is weaker than numbers
+addition,0,R2_mean_period=50,-0.00,higher=better; addition signal is weaker than numbers
+addition,28,R2_mean_period=2,0.27,higher=better; addition signal is weaker than numbers
+addition,28,R2_mean_period=5,-0.04,higher=better; addition signal is weaker than numbers
+addition,28,R2_mean_period=10,0.49,higher=better; addition signal is weaker than numbers
+addition,28,R2_mean_period=20,0.75,higher=better; addition signal is weaker than numbers
+addition,28,R2_mean_period=50,0.96,higher=better; addition signal is weaker than numbers
+addition,36,R2_mean_period=2,0.21,higher=better; addition signal is weaker than numbers
+addition,36,R2_mean_period=5,-0.11,higher=better; addition signal is weaker than numbers
+addition,36,R2_mean_period=10,0.48,higher=better; addition signal is weaker than numbers
+addition,36,R2_mean_period=20,0.76,higher=better; addition signal is weaker than numbers
+addition,36,R2_mean_period=50,0.96,higher=better; addition signal is weaker than numbers

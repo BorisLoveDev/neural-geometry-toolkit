@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Neural Geometry Lab: a toolkit for circular and Fourier representations in LLM activations"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - name: "Neural Geometry Lab contributors"
+keywords:
+  - mechanistic-interpretability
+  - representation-geometry
+  - circular-representations
+  - fourier-features
+  - modular-arithmetic
+  - hidden-state-probing
+  - large-language-models
+  - activation-analysis
+license: MIT
+repository-code: "https://github.com/BorisLoveDev/neural-geometry-toolkit"
